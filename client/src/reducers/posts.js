@@ -1,12 +1,14 @@
-export default (posts = [], action) => {
+// eslint-disable-next-line
+const posts = (postsArr = [], action) => {
   switch (action.type) {
     case "FETCH_ALL":
       return action.payload;
-
     case "CREATE":
-      return posts;
+      return [...postsArr, action.payload];
 
     default:
-      return posts;
+      return postsArr;
   }
 };
+
+export default posts;
