@@ -52,24 +52,6 @@ No frameworks or libraries are required to run the project.
 
 ---
 
-## Project Structure
-
-memories/
-│
-├── index.html
-├── pages/            # Additional pages (if exist)
-├── assets/
-│   ├── images/
-│   ├── icons/
-│   └── media/
-├── styles/
-│   └── style.css
-├── scripts/
-│   └── main.js
-└── README.md
-
----
-
 ## Getting Started
 
 Clone the repository and simply open the website:
